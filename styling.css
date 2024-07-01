@@ -1,0 +1,393 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root
+{
+    --colorw:green;
+    --colorl:black;
+    --colorp:#B87333;
+    --colord:#212121;
+    --colorb:#brown;
+    --colorbg:#FFFDD0;
+
+}
+body
+{
+    background: var(--colorbg);
+    color: var(--colorw);
+}
+h1
+{
+    font-size: 35px;
+    font-weight: 400;
+    color: green;
+    line-height: 30px;
+    margin: 1rem 0;    
+}
+h2
+{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    color:var(--colorb);
+}
+h4
+{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31px;
+    color:var(--colorp);
+}
+p
+{
+    color:var(--colorw);
+    font-size: 17px;
+    line-height: 23px;
+}
+.btn
+{
+    display: inline-block;
+    width: fit-content;
+    border: 1px solid white;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: .4s ease;
+    color:;
+    border-radius: 6px;
+}
+.btn:hover
+{
+    background: white;
+    color: var(--colorbg);
+    border-color:transparent ;
+}
+.btnp
+{
+    background: var(--colorp);
+}
+.container
+{
+    max-width: 160px;
+    width: 90%;
+    margin: 0 auto;
+}
+nav
+{
+background-color:rgb(246,176,146);
+}
+.ncontainer  
+{
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+ul 
+{
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 950px;
+    margin-inline-end:100px;
+    padding-inline-start: 40px;
+}
+.logo h2
+{
+    color: white;
+    font-size: 28px;
+}
+.ncontainer ul
+{
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+.ncontainer ul li a
+{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .4s ease;
+}
+.ncontainer ul li a:hover
+{
+    color:var(--colorp);
+}
+span
+{
+    color: var(--colorp);
+    text-shadow:0 0 10px blueviolet;
+}
+header
+{
+    margin-top: 190px;
+}
+.hcontainer
+{
+    display: grid;
+    grid-template-columns: 548% 120%;
+    align-items: center;
+    margin-left: 10%;
+}
+img
+{
+    width: 170%;
+    display: block;
+}
+.hcontainer p
+{
+    width: 90%;
+    margin: 2rem 0 1rem;
+    font-style:normal;
+}
+.name
+{
+    width: 50px;
+    font-size: 60px;
+    font-weight: 500;
+}
+.hcontainer h5
+{
+    margin: 1rem 0;
+    color: var(--colorl);
+}
+.haa
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#About
+{
+    padding-top:70px;
+}
+section>h1
+{
+    text-align: center;
+    margin-bottom: 44px;
+    margin-top: 158px;
+}
+.abcontainer p
+{
+    margin: 4px auto;
+    width: 62%;
+    position: absolute;
+    margin-left: -26%;
+    font-style:normal;
+    font-weight: 55px;
+    text-align: center;
+    font-size: 25px;
+}
+.abcontent
+{
+margin-top: 600%;
+display: grid;
+margin: 280px 18%;
+grid-template-columns: repeat(4,1fr);
+justify-content: center;
+align-items: center;
+}
+.abarticle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+    text-align: center;
+}
+.abarticle img
+{
+    width: 62px;
+}
+#Services
+{
+    padding-top: 8px;
+}
+.scontainer
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:60px;
+    margin-top: 100px;
+   justify-content: center;
+}
+.sarticle
+{
+    background: var(--colord);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+    border-bottom: 4px solid transparent;
+}
+.sarticle:hover
+{
+    border-color: var(--colorp);
+}
+.sarticle img
+{
+    width: 40px;
+}
+.sarticle p
+{
+    font-family:'Times New Roman', Times, serif;
+}
+#skills
+{
+    padding-top: -1px;
+}
+.skcontainer
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:60px;
+    margin-top: 100px;
+   justify-content: center;
+   text-align: center;
+}
+.skarticle
+{
+    background: var(--colord);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding:16px 90px;
+    border-radius: 14px;
+    border-bottom: 4px solid transparent;
+}
+.skarticle:hover
+{
+    border-color: var(--colorp);
+}
+#View .row
+{
+    width: 80%;
+    margin: auto;
+}
+#View .row .header
+{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+#View .row .header h1
+{
+   padding-top: 280px;
+   gap: 19px;
+}
+.header h1
+{
+  margin:29px ;
+}
+#View .row .header p
+{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.cont .card img
+{
+    width: 100% ;
+    height: auto;
+}
+.cont .card p
+{
+    font-size: 20px;
+    line-height: 1.2;
+}
+.cont
+{
+ display: flex;
+  align-items:center;
+  justify-content:space-between;
+  margin: 44px;
+}
+.spacing
+{
+    flex: 2;
+    margin: 70px 70px;
+    box-shadow: 0px  4px 0px rgba(0,0,0,0,1);
+    background-color: #212121;
+    border-radius: 19px;
+    text-items: center;
+}
+#Contact
+{
+    padding-top: 120px;
+}
+.contactcon
+{
+    margin-top: 80px;
+}
+form
+{
+    width: 60%;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: 21%;
+}
+.formtp
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:40px
+}
+form input
+{
+    padding: 10px;
+    background: transparent;
+    margin-bottom: 30px;
+    color: var(--colorl);
+    border: none;
+    box-shadow: 0 1px 0 0 var(--colorb);
+    transition: .4s ease;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+}
+form input:focus
+{
+    border-bottom: 1px solid blueviolet;
+    color:var(--colorp);
+}
+.formbtm
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.formbtm textarea
+{
+    width: 100%;
+    padding: 9px;
+    height: 100px;
+    background: transparent;
+    resize: none;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    margin-top: 17px;
+    border: 1px solid var(--colorb);
+    color: var(--colorp);
+}
+.formbtm textarea :focus
+{
+border-bottom: 1px solid blueviolet;
+}
+footer
+{
+    margin-top: 500px ;
+    margin-bottom: 40px ;
+    text-align: center;
+    color:var(--colorb);
+}
